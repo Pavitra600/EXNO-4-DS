@@ -211,3 +211,6 @@ print(f"P-Value: {p}")
 # RESULT:
 Thus the program to read the given data and perform Feature Scaling and Feature Selection process and
 save the data to a file is been executed.
+
+# SUMMARY:
+In this experiment, the given dataset was read, cleaned, and preprocessed. Missing values were removed, and categorical data were encoded using one-hot encoding. Feature Scaling techniques such as StandardScaler and MinMaxScaler were applied to normalize the data. Feature Selection methods like SelectKBest and Chi-Square were used to identify the most important features. A KNN classifier was trained to evaluate performance, and the processed data was saved. The experiment demonstrated how scaling and selecting key features improve model accuracy and efficiency.
